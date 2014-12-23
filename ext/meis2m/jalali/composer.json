@@ -1,0 +1,26 @@
+{
+	"name": "meis2m/jalali",
+	"type": "phpbb-extension",
+	"description": "Adds an option to display dates as shamsi dates ",
+	"homepage": "http://www.php-bb.ir",
+	"version": "1.0.0",
+	"time": "2014-10-28",
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Meis2M",
+			"email": "meis2m@yahoo.com",
+			"homepage": "https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=1236845",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"extra": {
+		"display-name": "Shamsi Datetime for phpBB 3.1- تاریخ شمسی",
+		"soft-require": {
+			"phpbb/phpbb": "3.1.*@dev"
+		}
+	}
+}
