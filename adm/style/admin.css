@@ -58,14 +58,14 @@ img {
 }
 
 h1 {
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: Tahoma, "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 1.70em;
 	font-weight: normal;
 	color: #333333;
 }
 
 h2, caption {
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: Tahoma, "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 1.40em;
 	font-weight: normal;
 	color: #115098;
@@ -78,7 +78,7 @@ h2, caption {
 }
 
 h3, h4 {
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: Tahoma, "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 1.20em;
 	text-decoration: none;
 	line-height: 1.20em;
@@ -203,7 +203,7 @@ li {
 
 #page-header h1 {
 	color: #767676;
-	font-family: "Trebuchet MS",Helvetica,sans-serif;
+	font-family: Tahoma, "Trebuchet MS",Helvetica,sans-serif;
 	font-size: 1.70em;
 	padding-top: 10px;
 }
@@ -331,7 +331,7 @@ li {
 /* Tabbed menu
 ----------------------------------------*/
 #tabs {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
 	line-height: normal;
 	margin: 0 7px;
 	position: relative;
@@ -1103,7 +1103,7 @@ legend {
 }
 
 input, textarea {
-	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-family: Tahoma, Verdana, Helvetica, Arial, sans-serif;
 	font-size: 0.90em;
 	font-weight: normal;
 	vertical-align: middle;
@@ -1143,7 +1143,7 @@ input[type="number"] {
 optgroup, select {
 	background-color: #FAFAFA;
 	border: 1px solid #666666;
-	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-family: Tahoma, Verdana, Helvetica, Arial, sans-serif;
 	font-size: 0.85em;
 	font-weight: normal;
 	font-style: normal;
@@ -1190,7 +1190,7 @@ option.disabled-option {
 }
 
 textarea {
-	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-family: Tahoma, Verdana, Helvetica, Arial, sans-serif;
 	font-size: 0.85em;
 	width: 60%;
 	padding: 2px;
@@ -1295,7 +1295,7 @@ select#full_folder_action {
 	Other general def. list properties defined in prosilver_main.css
 ---------------------------------------- */
 dl {
-	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-family: Tahoma, Verdana, Helvetica, Arial, sans-serif;
 	font-size: 1.00em;
 }
 
@@ -1535,7 +1535,7 @@ a.button1, input.button1,
 a.button2, input.button2 {
 	width: auto !important;
 	padding: 1px 3px 0 3px;
-	font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+	font-family: Tahoma, "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
 	color: #000;
 	font-size: 0.85em;
 	background: #EFEFEF url("../images/bg_button.gif") repeat-x top;
@@ -1807,7 +1807,7 @@ li.pagination ul {
 	color: #FFFFFF;
 	margin: 0 0 0.5em;
 	font-size: 1.10em;
-	font-family: "Lucida Grande",Verdana,Helvetica,Arial,sans-serif;
+	font-family: Tahoma, "Lucida Grande",Verdana,Helvetica,Arial,sans-serif;
 }
 
 .successbox p, .errorbox p {
