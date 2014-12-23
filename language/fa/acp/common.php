@@ -2,7 +2,7 @@
 /**
 *
 * phpBB 3.1.X Project - Persian Translation by php-bb.ir
-* Translator: Meis@M Noubari
+* Translator: Meis@M Noubari & Ali Faraji
 * Version: 1.0.0
 *
 * This file is part of the phpBB Forum Software package.
@@ -417,7 +417,7 @@ $lang = array_merge($lang, array(
 	'USERS_PER_DAY'		=> 'تعداد کاربران در هر روز',
 
 	'VALUE'						=> 'مقدار',
-	'VERSIONCHECK_FAIL'			=> 'دریافت اطلاعات آخرین نسخه موفقیت آمیط نبود !',
+	'VERSIONCHECK_FAIL'			=> 'دریافت آخرین اطلاعات نسخه موفقیت آمیز نبود!',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'کنترل دوباره ی نسخه',
 	'VIEW_ADMIN_LOG'			=> 'مشاهده رویداد های مدیریت',
 	'VIEW_INACTIVE_USERS'		=> 'مشاهده کاربران غیرفعال',

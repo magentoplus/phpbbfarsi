@@ -2,7 +2,7 @@
 /**
 *
 * phpBB 3.1.X Project - Persian Translation by php-bb.ir
-* Translator: Meis@M Noubari
+* Translators: Meis@M Noubari & Ali Faraji
 * Version: 1.0.0
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
