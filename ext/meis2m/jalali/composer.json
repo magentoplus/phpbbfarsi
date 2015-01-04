@@ -17,10 +17,18 @@
 	"require": {
 		"php": ">=5.3.3"
 	},
+        "require-dev": {
+                "phpbb/epv": "dev-master"
+        },
 	"extra": {
 		"display-name": "Shamsi Datetime for phpBB 3.1- تاریخ شمسی",
 		"soft-require": {
 			"phpbb/phpbb": "3.1.*@dev"
-		}
+		},
+                "version-check": {
+                "host": "version.php-bb.ir",
+                "directory": "/",
+                "filename": "shamsi-date.json"
+            }
 	}
 }
