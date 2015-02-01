@@ -1,9 +1,8 @@
 <?php
 /**
 *
-* phpBB 3.1.X Project - Persian Translation by php-bb.ir
-* Translator: Meis@M Noubari & Ali Faraji
-* Version: 1.0.0
+* phpBB 3.1.X Project - Persian Translation
+* Translators: PHP-BB.IR Group
 *
 * This file is part of the phpBB Forum Software package.
 *
@@ -52,4 +51,5 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Your private reCaptcha key. Keys can be obtained on <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'RECAPTCHA_PRIVATE_EXPLAIN'	=> 'کلید خصوصی reCaptcha شما. کلیدها می تواند روی <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> تهیه شود.',
 	'RECAPTCHA_EXPLAIN'		=> 'در یک تلاش برای جلوگیری از ارسال خودکار, ما لازم دانستیم شما هر دو کلمه نمایش داده شده را در فیلدمتنی زیرش وارد کنید.',
+	'RECAPTCHA_SOCKET_ERROR'		=> 'مشکلی در برقرار ارتباط با سرویس ری کپچا بوجود آمده است: قادر به باز کردن سوکت نیست. لطفا بعدا تلاش نمایید.',
 ));

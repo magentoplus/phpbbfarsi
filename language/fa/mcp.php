@@ -1,9 +1,8 @@
 <?php
 /**
 *
-* phpBB 3.1.X Project - Persian Translation by php-bb.ir
-* Translator: Meis@M Noubari & Ali Faraji
-* Version: 1.0.0
+* phpBB 3.1.X Project - Persian Translation
+* Translators: PHP-BB.IR Group
 *
 * This file is part of the phpBB Forum Software package.
 *
@@ -308,8 +307,8 @@ $lang = array_merge($lang, array(
 		2	=> 'درکل <strong>%d</strong> گزارش برای بررسی موجود است',
 	),
 	'REPORT_CLOSED'				=> 'گزارش مورد نظر قبلا بسته شده بود.',
-	'REPORTS_CLOSED_SUCCESS'	=> 'گزارش های انتخاب شده با موفقیت بسته شدند.',
-	'REPORTS_DELETED_SUCCESS'	=> 'گزارش های انتخاب شده با موفقیت حذف شده اند.',
+	'REPORT_CLOSED_SUCCESS'	=> 'گزارش های انتخاب شده با موفقیت بسته شدند.',
+	'REPORT_DELETED_SUCCESS'	=> 'گزارش های انتخاب شده با موفقیت حذف شده اند.',
 	'REPORT_DETAILS'			=> 'جزئیات گزارش',
 	'REPORT_MESSAGE'			=> 'گزارش این پیغام',
 	'REPORT_MESSAGE_EXPLAIN'	=> 'برای گزارش پیغام خصوصی انتخاب شده از این فرم استفاده کنید. پیغامی خصوصی را هنگامی که حاوی مطالب مغایر با قوانین تالار بود،گزارش دهید. <strong>زیرا محتوای آن برای تمامی مدیران قابل نمایش خواهد بود.</strong>',
@@ -328,7 +327,7 @@ $lang = array_merge($lang, array(
 	'RESTORE_TOPICS'			=> 'بازیابی موضوعات',
 	'RESTORE_TOPICS_CONFIRM'	=> 'آیا از بازیابی موضوعات انتخاب شده مطمئن هستید؟',
 	'RESYNC'					=> 'بازیابی',
-	'RETURN_MESSAGE'			=> '%بازگشت به پیغام%s',
+	'RETURN_MESSAGE'			=> '%sبازگشت به پیغام%s',
 	'RETURN_NEW_FORUM'			=> '%sبه انجمن جدید برو%s',
 	'RETURN_NEW_TOPIC'			=> '%sبه موضوع جدید برو%s',
 	'RETURN_PM'					=> '%sبازگشت به پیغام خصوصی%s',

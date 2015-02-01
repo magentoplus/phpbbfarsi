@@ -1,9 +1,8 @@
 <?php
 /**
 *
-* phpBB 3.1.X Project - Persian Translation by php-bb.ir
-* Translator: Meis@M Noubari & Ali Faraji
-* Version: 1.0.0
+* phpBB 3.1.X Project - Persian Translation
+* Translators: PHP-BB.IR Group
 *
 * This file is part of the phpBB Forum Software package.
 *
@@ -56,7 +55,7 @@ $lang = array_merge($lang, array(
 	'INHERITING_FROM'			=> 'برگرفته از',
 	'INSTALL_STYLE'				=> 'نصب قالب',
 	'INSTALL_STYLES'			=> 'نصب قالب ها',
-	'INSTALL_STYLE_EXPLAIN'		=> 'در این بخش می توانید قالبی را همراه با عناصر آن نصب کنید،عناصر اضافه شده موجب حذف شدن عناصر قبلی نخواهند شد،بعضی از قالب ها نیازمند عناصر پیشفرض هستند،اگر قالبی این چنین بود، به شما اطلاع داده خواهد شد.',
+	'INSTALL_STYLES_EXPLAIN'		=> 'در این بخش می توانید قالبی را همراه با عناصر آن نصب کنید،عناصر اضافه شده موجب حذف شدن عناصر قبلی نخواهند شد،بعضی از قالب ها نیازمند عناصر پیشفرض هستند،اگر قالبی این چنین بود، به شما اطلاع داده خواهد شد.',
 	'INVALID_STYLE_ID'			=> 'شماره قالب معتبر نیست.',
 
 	'NO_MATCHING_STYLES_FOUND'	=> 'قالبی یافت نشد.',

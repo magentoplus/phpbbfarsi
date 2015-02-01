@@ -1,9 +1,9 @@
 <?php
 /**
 *
-* phpBB 3.1.X Project - Persian Translation by php-bb.ir
-* Translators: Meis@M Noubari & Ali Faraji
-* Version: 1.0.0
+* phpBB 3.1.X Project - Persian Translation
+* Translators: PHP-BB.IR Group
+* Version: 3.1.3
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
@@ -43,12 +43,11 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> ' <html dir="rtl">
-<a href="http://www.php-bb.ir">phpBB Persian</a> پشتیبانی فارسی ',
+	'TRANSLATION_INFO'	=> '<a href="http://www.php-bb.ir">phpBB Persian</a> پشتیبانی فارسی ',
 	'DIRECTION'			=> 'rtl',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
-	'USER_LANG'			=> 'Persian',
+	'USER_LANG'			=> 'fa',
 
 	// You can define different rules for the determination of plural forms here.
 	// See http://wiki.phpbb.com/Plural_Rules for more information
@@ -115,8 +114,8 @@ $lang = array_merge($lang, array(
 	'AVATAR_REMOTE_UPLOAD_TIMEOUT'		=> 'نمایه مشخص شده قابل بارگزاری نیست ، درخواست شما بیش از اندازه طول کشیده است ، مجدد تلاش کنید.',
 	'AVATAR_URL_INVALID'			=> 'لینک مشخص شده نامعتبر است.',
 	'AVATAR_URL_NOT_FOUND'			=> 'فایل مشخص شده یافت نشد.',
-	'AVATAR_WRONG_FILESIZE'			=> 'حجم فایل نمایه باید بین 0 و %1d %2s باشد.',
-	'AVATAR_WRONG_SIZE'				=> 'عرض نمایه مشخص شده %5$d پیکسل است و طول آن %6$d پیکسل است . عرض نمایه باید حداقل %1$d پیکسل باشد . و طول آن حداقل %2$d پیکسل باشد, ولی بیشتر از %3$d پیکسل عرض و %4$d پیکسل طول نداشته باشد',
+	'AVATAR_WRONG_FILESIZE'			=> 'حجم فایل نمایه باید بین 0 و %1$d %2$s باشد.',
+	'AVATAR_WRONG_SIZE'				=> 'The submitted avatar is %5$s wide and %6$s high. Avatars must be at least %1$s wide and %2$s high, but no larger than %3$s wide and %4$s high.',
 
 	'BACK_TO_TOP'			=> 'بالا',
 	'BACK_TO_PREV'			=> 'بازگشت به صفحه قبل',
@@ -575,7 +574,7 @@ $lang = array_merge($lang, array(
 	'POSTS_UNAPPROVED'		=> 'حداقل یک پست در این موضوع تایید نشده است.',
 	'POSTS_UNAPPROVED_FORUM'        => 'حداقل یک پست در این انجمن تایید نشده است.',
 	'POST_BY_AUTHOR'		=> 'توسط',
-	'POST_BY_FOE'			=> 'این پست توسط <strong>%1$s</strong> که در لیست تحریم شما قرار دارد، ارسال شده است. برای مشاهده پست %2$sدر اینجا%3$sکلیک کنید.',
+	'POST_BY_FOE'			=> '<strong>%1$s</strong>, در لیست دشمنان شما وجود دارد که پستی ارسال کرده است.',
 	'POST_DISPLAY'			=> '%1$sنمایش این پست%2$s.',
 	'POST_DAY'				=> '%.2f پست در روز',
 	'POST_DELETED_ACTION'	=> 'پست حذف شده:',
@@ -641,7 +640,7 @@ $lang = array_merge($lang, array(
 	'RETURN_INDEX'				=> '%sبازگشت به صفحه نخست%s',
 	'RETURN_FORUM'				=> '%sبازگشت به آخرین انجمن بازدید شده%s',
 	'RETURN_PAGE'				=> '%sبازگشت به صفحه قبل%s',
-	'RETURN_TOPIC'				=> '%sبازگشت به آخرین موضوع مشاهده شدهs',
+	'RETURN_TOPIC'				=> '%sبازگشت به آخرین موضوع مشاهده شده%s',
 	'RETURN_TO'					=> 'بازگشت به “%s”',
 	'RETURN_TO_INDEX'			=> 'بازگشت به صفحه اصلی',
 	'FEED'						=> 'خوراک',
@@ -706,7 +705,7 @@ $lang = array_merge($lang, array(
 	'SORT_TOPIC_TITLE'			=> 'عنوان موضوع',
 	'SORT_USERNAME'				=> 'نام کاربری',
 	'SPLIT_TOPIC'				=> 'تقسیم موضوع',
-	'SQL_ERROR_OCCURRED'		=> 'در حین بارگزاری این صفحه مشکلی در SQL پیش آمد، اگر مشکل ادامه داشت،لطفا با مدیریت تماس بگیرید.',
+	'SQL_ERROR_OCCURRED'		=> 'خطای SQL در هنگام بارگذاری این صفحه بوجود آمده است. اگر این مشکل همچنان ادامه داشت لطفا با %sمدیریت سایت%s تماس بگیرید.',
 	'STATISTICS'				=> 'آمار و اطلاعات',
 	'START_WATCHING_FORUM'		=> 'عضویت در انجمن',
 	'START_WATCHING_TOPIC'		=> 'عضویت در موضوع',

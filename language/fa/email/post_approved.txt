@@ -12,3 +12,4 @@ Subject: پست تأیید شد - "{POST_SUBJECT}"
 
 
 {EMAIL_SIG}
+

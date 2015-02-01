@@ -1,9 +1,8 @@
 <?php
 /**
 *
-* phpBB 3.1.X Project - Persian Translation by php-bb.ir
-* Translator: Meis@M Noubari & Ali Faraji
-* Version: 1.0.0
+* phpBB 3.1.X Project - Persian Translation
+* Translators: PHP-BB.IR Group
 * 
 * This file is part of the phpBB Forum Software package.
 *
@@ -52,7 +51,6 @@ $lang = array_merge($lang, array(
 
 	'BEFORE'				=> 'قبل',
 
-	'CONTACT_USER'			=> 'ارتباط',
 	'CC_SENDER'			=> 'ارسال رونوشتی از این ایمیل برای من.',
 	'CONTACT_ADMIN'			=> 'تماس با مدیر کل انجمن',
 

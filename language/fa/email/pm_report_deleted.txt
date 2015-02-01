@@ -6,3 +6,4 @@ Subject: گزارش حذف شد - "{PM_SUBJECT}"
 
 
 {EMAIL_SIG}
+

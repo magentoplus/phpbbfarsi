@@ -18,3 +18,4 @@ Subject: به "{SITENAME}" خوش آمدید
 با تشکر از ثبت نام شما
 
 {EMAIL_SIG}
+

@@ -15,7 +15,6 @@
 	margin: 0;
 	padding: 0;
 	font-size: 100%;
-	font-family: Tahoma, "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
 }
 
 body, div, p, th, td, li, dd {
@@ -23,7 +22,6 @@ body, div, p, th, td, li, dd {
 	voice-family: "\"}\"";
 	voice-family: inherit;
 	font-size: small;
-	font-family: Tahoma, "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
 }
 
 html>body, html>div, html>p, html>th, html>td, html>li, html>dd {
@@ -37,7 +35,6 @@ html {
 	height: 100%;
 	margin-bottom: 1px;
 	word-wrap: break-word;
-	font-family: Tahoma, "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -1894,7 +1891,7 @@ li.pagination ul {
 ---------------------------------------- */
 .sourcenum {
 	color: gray;
-	font-family: Monaco, 'Courier New', monospace;
+	font-family: Tahoma, Monaco, 'Courier New', monospace;
 	font-size: 1.25em;
 	font-weight: bold;
 	line-height: 1.20em;
@@ -1907,7 +1904,7 @@ li.pagination ul {
 }
 
 .source {
-	font-family: Monaco, 'Courier New', monospace;
+	font-family: Tahoma, Monaco, 'Courier New', monospace;
 	font-size: 1.25em;
 	line-height: 1.20em;
 	padding: 0;

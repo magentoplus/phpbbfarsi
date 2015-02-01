@@ -7,5 +7,5 @@ Subject: موضوع تأیید شد - "{TOPIC_TITLE}"
 برای مشاهده موضوع بر روی لینک زیر کلیک کنید :
 {U_VIEW_TOPIC}
 
-
 {EMAIL_SIG}
+

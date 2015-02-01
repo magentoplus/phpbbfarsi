@@ -1,9 +1,8 @@
 <?php
 /**
 *
-* phpBB 3.1.X Project - Persian Translation by php-bb.ir
-* Translator: Meis@M Noubari & Ali Faraji
-* Version: 1.0.0
+* phpBB 3.1.X Project - Persian Translation
+* Translators: PHP-BB.IR Group
 *
 * This file is part of the phpBB Forum Software package.
 *
@@ -46,7 +45,7 @@ $lang = array_merge($lang, array(
 
 	'COMMON_WORD_THRESHOLD'					=> 'آستانه کلمات عمومی',
 	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'کلماتی که در درصد بیشتری از پست ها حضور داشته باشند جزو کلمات عمومی محسوب خواهند شد،این کلمات در نتایج جستجو محسوب نمی شوند،اگر کلمه ای در بیش از 100 پست وجود داشته باشد این تنظیم برای آن کلمه فعال خواهد شد.برای وارد کردن کلمات به طور دستی باید شاخص جستجو را از نو ایجاد کنید.',
-
+	'CONFIRM_SEARCH_BACKEND'				=> 'Are you sure you wish to switch to a different search backend? After changing the search backend you will have to create an index for the new search backend. If you don’t plan on switching back to the old search backend you can also delete the old backend’s index in order to free system resources.',
 	'CONTINUE_DELETING_INDEX'				=> 'ادامه فرآیند حذف شاخص گذشته',
 	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'فرآیند حذف شاخص شروع شد،برای دسترسی به صفحه شاخص جستجو باید این فرآیند تکمیل شده و یا لغو شود.',
 	'CONTINUE_INDEXING'						=> 'ادامه فرآیند شاخص بندی گذشته',
@@ -93,7 +92,7 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'The sphinx search for phpBB supports MySQL and PostgreSQL only.',
 	'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Sphinx config file',
 	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'The generated content of the sphinx config file. This data needs to be pasted into the sphinx.conf which is used by sphinx search daemon. Replace the [dbuser] and [dbpassword] placeholders with your database credentials.',
-	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'The sphinx data and config directory paths are not defined. Please define them to generate the config file.',
+	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'The sphinx data directory path is not defined. Please define the path and submit to generate the config file.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'تنظیمات عمومی جستجو',
 	'GO_TO_SEARCH_INDEX'					=> 'رفتن به صفحه اصلی جستجو',
@@ -119,7 +118,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_GUEST_INTERVAL'					=> 'محدودیت زمانی جستجو برای مهمان ها',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'تعدا ثانیه هایی که مهمانان باید بین دو جستجو صبر کنند،اگر مهمانی جستجویی را انجام دهد،مهمانان دیگر باید این تعداد ثانیه صبر کنند تا بتوانند جستجوی دیگری را انجام دهند.',
 	'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
-		2	=> 'همه پست ها تا id %1$d از بین %2$d پست در این مرحله شاخص بندی شدند.<br /رتبه شاخص بندی کنونی تقریبا %3$در ثانیه می باشد.<br />شاخص بندی در حال اجرا است.',
+		2	=> 'همه پست ها تا id %1$d از بین %2$d پست در این مرحله شاخص بندی شدند.رتبه شاخص بندی کنونی تقریبا %3$در ثانیه می باشد.<br />شاخص بندی در حال اجرا است.',
 	),
 	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
 		2	=> 'The current rate of indexing is approximately %1$.1f posts per second.<br />Indexing in progress…',

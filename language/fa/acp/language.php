@@ -1,9 +1,8 @@
 <?php
 /**
 *
-* phpBB 3.1.X Project - Persian Translation by php-bb.ir
-* Translator: Meis@M Noubari & Ali Faraji
-* Version: 1.0.0
+* phpBB 3.1.X Project - Persian Translation
+* Translators: PHP-BB.IR Group
 *
 * This file is part of the phpBB Forum Software package.
 *
@@ -65,7 +64,7 @@ $lang = array_merge($lang, array(
 	'LANG_ISO_CODE'						=> 'کد ISO',
 	'LANG_LOCAL_NAME'					=> 'نام محلی',
 
-	'MISSING_LANGUAGE_FILE'		=> 'فایل زبانی گم شده ',
+	'MISSING_LANG_FILES'		=> 'فایل زبانی گم شده ',
 	'MISSING_LANG_VARIABLES'	=> 'متغیر های بسته زبانی گم شده است',
 
 	'NO_FILE_SELECTED'				=> 'فایل زبانی را مشخص نکرده اید.',

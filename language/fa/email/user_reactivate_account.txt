@@ -17,3 +17,4 @@ Subject: فعال سازی مجدد اکانت شما در "{SITENAME}"
 
 
 {EMAIL_SIG}
+

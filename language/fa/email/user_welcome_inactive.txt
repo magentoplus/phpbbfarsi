@@ -17,3 +17,4 @@ Subject: به "{SITENAME}" خوش آمدید
 
 از ثبت نام شما متشکریم
 {EMAIL_SIG}
+

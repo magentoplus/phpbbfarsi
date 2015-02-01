@@ -7,3 +7,4 @@ Subject: فعال سازی مجدد اکانت
 {U_ACTIVATE}
 
 {EMAIL_SIG}
+

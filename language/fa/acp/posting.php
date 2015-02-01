@@ -1,9 +1,8 @@
 <?php
 /**
 *
-* phpBB 3.1.X Project - Persian Translation by php-bb.ir
-* Translator: Meis@M Noubari & Ali Faraji
-* Version: 1.0.0
+* phpBB 3.1.X Project - Persian Translation
+* Translators: PHP-BB.IR Group
 *
 * This file is part of the phpBB Forum Software package.
 *
@@ -89,7 +88,7 @@ $lang = array_merge($lang, array(
 		'NUMBER'		=> 'هر مجموعه ای از ارقاک',
 		'EMAIL'			=> 'آدرس ایمیل معتبر',
 		'URL'			=> 'URL معتبر با هر نوع پروتکل (http, ftp, غیره… سوء استفاده در جاوا اسکریپت ممکن نیست). اگر هیچکدام تعریف نشود “http://” پیشوند حلقه خواهد بود.',
-		'LOCAL_URL'		=> 'URL محلی،فقط باید در صفحات داخلی سایت استفاده شود و حاوی هیچگونه پروتکل و پیشوند نیست.',
+		'LOCAL_URL'		=> 'URL محلی،“%s” فقط باید در صفحات داخلی سایت استفاده شود و حاوی هیچگونه پروتکل و پیشوند نیست.',
 		'RELATIVE_URL'	=> 'A relative URL. You can use this to match parts of a URL, but be careful: a full URL is a valid relative URL. When you want to use relative URLs of your board, use the LOCAL_URL token.',
 		'COLOR'			=> 'رنگ HTML که میتواند به صورت عددی نوشته شود <samp>#FF1234</samp> و یا <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">کلمات کلیدی رنگ های CSS</a> مانند <samp>سرخابی</samp> یا <samp>مرزغیرفعال</samp>'
 	),
@@ -276,6 +275,10 @@ $lang = array_merge($lang, array(
 	'IS_TRANSLATED'				=> 'دلیل محلی می باشد',
 	'IS_TRANSLATED_EXPLAIN'		=> 'دلیل محلی می باشد،اگر عنوان وارد شده در این بخش در فایل زبانی نیز وجود داشته باشد،از عنوان و توضیحات موجود در فایل زبانی استفاده خواهد شد.',
 
+	'NO_REASON'					=> 'دلیلی یافت نشد.',
+	'NO_REASON_INFO'			=> 'شما باید عنوان و توضیحی برای دلیل خود مشخص کنید.',
+	'NO_REMOVE_DEFAULT_REASON'	=> 'شما قادر به حذف دلیل پیش فرض نیستید “دیگر”.',
+	
 	'REASON_ADD'				=> 'اضافه کردن دلیل گزارش',
 	'REASON_ADDED'				=> 'دلیل گزارش با موفقیت اضافه شد.',
 	'REASON_ALREADY_EXIST'		=> 'دلیلی با این عنوان وجود دارد،لطفا عنوان دیگری را وارد کنید.',

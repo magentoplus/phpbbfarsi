@@ -1,9 +1,8 @@
 <?php
 /**
 *
-* phpBB 3.1.X Project - Persian Translation by php-bb.ir
-* Translator: Meis@M Noubari & Ali Faraji
-* Version: 1.0.0
+* phpBB 3.1.X Project - Persian Translation
+* Translators: PHP-BB.IR Group
 * 
 * This file is part of the phpBB Forum Software package.
 *
@@ -67,7 +66,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_S_HELP'				=> 'رنگ فونت : [color=red]نوشته[/color]  یا [color=#FF0000]text[/color]',
 	'BBCODE_U_HELP'				=> 'خط زیرین (underline) نوشته : [u]نوشته[/u]',
 	'BBCODE_W_HELP'				=> 'اضافه کردن URL : [url]http://url[/url] یا [url=http://url]متن URL[/url]',
-	'BBCODE_D_HELP'				=> 'لیست: اضافه کردن عنصر جدید',
+	'BBCODE_Y_HELP'				=> 'لیست: اضافه کردن عنصر جدید',
 	'BUMP_ERROR'				=> 'بعد از آخرین پستتان در این موضوع در چنین زمان کوتاهی نمیتوانید مضوع را بامپ (bump) کنید.',
 
 	'CANNOT_DELETE_REPLIED'		=> 'با عرض پوزرش فقط پست هایی را میتوانید حذف کنید که به آنها پاسخ داده نشده باشد.',
@@ -277,6 +276,6 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%sمشاهده پیغام ثبت شده شما%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%sمشاهده پیغام خصوصی ثبت شده شما%s',
 
-	'WRONG_FILESIZE'			=> 'حجم فایل بسیار زیاد است،حجم مورد قبول %1d %2s میباشد.',
-	'WRONG_SIZE'				=> 'تصویر باید حداقل %1$d پیکسل پهنا، %2$d پیکسل طول و حداکثر %3$dپیکسل پهنا و %4$d پیکسل طول داشته باشد. تصویر ثبت شده %5$d پیکسل پهنا و %6$d پیکسل طول دارد.',
+	'WRONG_FILESIZE'			=> 'حجم فایل خیلی زیاد است, حداکثر حجم مجاز %1$d %2$s.',
+	'WRONG_SIZE'				=> 'The image must be at least %1$s wide, %2$s high and at most %3$s wide and %4$s high. The submitted image is %5$s wide and %6$s high.',
 ));

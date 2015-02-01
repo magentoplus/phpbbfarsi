@@ -1,9 +1,8 @@
 <?php
 /**
 *
-* phpBB 3.1.X Project - Persian Translation by php-bb.ir
-* Translator: Meis@M Noubari & Ali Faraji
-* Version: 1.0.0
+* phpBB 3.1.X Project - Persian Translation
+* Translators: PHP-BB.IR Group
 *
 * This file is part of the phpBB Forum Software package.
 *
@@ -149,9 +148,9 @@ $lang = array_merge($lang, array(
 	'NO_UPLOAD_DIR'				=> 'دایرکتوری upload انتخاب شده موجود نیست',
 	'NO_WRITE_UPLOAD'			=> 'دایرکتوری upload قابل نوشتن نیست،لطفا سطوح دسترسی آن را تغییر دهید تا سرور بتواند بر روی آن بنویسد.',
 
-	'ONLY_ALLOWED_IN_PM'	=> 'Only allowed in private messages',
-	'ORDER_ALLOW_DENY'		=> 'Allow',
-	'ORDER_DENY_ALLOW'		=> 'Deny',
+	'ONLY_ALLOWED_IN_PM'	=> 'فقط در پیام های خصوصی مجاز است.',
+	'ORDER_ALLOW_DENY'		=> 'اجازه',
+	'ORDER_DENY_ALLOW'		=> 'عدم اجازه',
 
 	'ONLY_ALLOWED_IN_PM'	=> 'فقط در پیغام های خصوصی مورد قبول است.',
 	'ORDER_ALLOW_DENY'		=> 'پذیرفتن',
@@ -159,6 +158,8 @@ $lang = array_merge($lang, array(
 
 	'REMOVE_ALLOWED_IPS'		=> 'IP/hostnam های <em> مجاز </em> را حذف کرده و یا قبول کنید.',
 	'REMOVE_DISALLOWED_IPS'		=> 'IP/hostnam های <em>غیر مجاز</em> را حذف کرده و یا قبول کنید.',
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'آیا از هم زمان سازی آمار فایل های پیوست اطمینان دارید؟',
+		
 	'SEARCH_IMAGICK'				=> 'جستجو براي Imagemagick',
 	'SECURE_ALLOW_DENY'				=> 'ليست پذيريش/عدم پذيريش',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'دگرگون سازی رفتار پیشفرض هنگامی فعال بودن دانلود ایمن در لیست پذیریش/عدم پذیریش و دربرابر آن یک <strong>لیست سفید</strong> ( فعال ) و یک <strong>لیست سیاه</strong> غیر فعال.',

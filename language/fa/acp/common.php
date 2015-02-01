@@ -1,9 +1,8 @@
 <?php
 /**
 *
-* phpBB 3.1.X Project - Persian Translation by php-bb.ir
-* Translator: Meis@M Noubari & Ali Faraji
-* Version: 1.0.0
+* phpBB 3.1.X Project - Persian Translation
+* Translators: PHP-BB.IR Group
 *
 * This file is part of the phpBB Forum Software package.
 *
@@ -176,7 +175,6 @@ $lang = array_merge($lang, array(
 	'ACP_SERVER_SETTINGS'		=> 'تنظیمات سرور',
 	'ACP_SIGNATURE_SETTINGS'	=> 'تنظیمات امضا',
 	'ACP_SMILIES'				=> 'شکلک ها',
-	'ACP_STYLE_COMPONENTS'		=> 'اجزاء قالب',
 	'ACP_STYLE_MANAGEMENT'		=> 'مدیریت قالب ها',
 	'ACP_STYLES'				=> 'قالب ها',
 	'ACP_STYLES_CACHE'			=> 'پاک سازی کش',
@@ -356,8 +354,14 @@ $lang = array_merge($lang, array(
 	'DATABASE_SIZE'			=> 'حجم پایگاه داده',	
 
 	// Enviroment configuration checks, mbstring related
-'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'تابع اضافه بار به طور نامناسب پیکربندی شده است',	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> باید 0 یا 4 انتخاب شود، می توانید داده را از صفحه <samp>اطلاعات PHP</samp> کنترل کنید.',	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Transparent character encoding به طور نامناسب پیکربندی شده است',	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> باید به 0 تنظیم شود . می توانید داده را از صفحه <samp>اطلاعات PHP</samp> کنترل کنید.',	'ERROR_MBSTRING_HTTP_INPUT'						=> 'HTTP input character conversion به طور نامناسب پیکربندی شده است',	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input/var> باید به <samp>pass</samp> تنظیم شود. می توانید داده را از صفحه <samp>اطلاعات PHP</samp> کنترل کنید.',	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'HTTP output character conversion به طور نامناسب پیکربندی شده است',	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var>باید به <samp>pass</samp> تنظیم شود. می توانید داده را از صفحه <samp>اطلاعات PHP</samp> کنترل کنید.',
-
+	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'تابع اضافه بار به طور نامناسب پیکربندی شده است',	
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> باید 0 یا 4 انتخاب شود، می توانید داده را از صفحه <samp>اطلاعات PHP</samp> کنترل کنید.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Transparent character encoding به طور نامناسب پیکربندی شده است',	
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> باید به 0 تنظیم شود . می توانید داده را از صفحه <samp>اطلاعات PHP</samp> کنترل کنید.',
+	'ERROR_MBSTRING_HTTP_INPUT'						=> 'HTTP input character conversion به طور نامناسب پیکربندی شده است',	
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> باید به <samp>pass</samp> تنظیم شود. می توانید داده را از صفحه <samp>اطلاعات PHP</samp> کنترل کنید.',
+	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'HTTP output character conversion به طور نامناسب پیکربندی شده است',	
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var>باید به <samp>pass</samp> تنظیم شود. می توانید داده را از صفحه <samp>اطلاعات PHP</samp> کنترل کنید.',
 
 	'FILES_PER_DAY'		=> 'تعداد پیوست در هر روز',
 	'FORUM_STATS'		=> 'آمار تالار',
@@ -549,20 +553,22 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>موضوع تایید شد</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>موضوع کاربر بامپ (bump) شد</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>پست حذف شد</strong><br />» %2$s',
+	'LOG_DELETE_POST'			=> '<strong>حذف پست “%1$s” نوشته شده توسط “%2$s” به دلیل</strong><br />» %3$s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>موضوع سایه دار حذف شد</strong><br />» %s',
 	'LOG_DELETE_TOPIC'			=> '<strong>موضوع حذف شد</strong><br />» %2$s',
+	'LOG_DELETE_TOPIC'			=> '<strong>موضوع حذف شد “%1$s” توسط “%2$s” به دلیل</strong><br />» %3$s',
 	'LOG_FORK'					=> '<strong>موضوع کپی شد</strong><br />» from %s',
 	'LOG_LOCK'					=> '<strong>موضوع قفل شد</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>پست قفل شد</strong><br />» %s',
 	'LOG_MERGE'					=> '<strong>پست ها در این موضوع ادغام شدند</strong><br />» %s',
 	'LOG_MOVE'					=> '<strong>موضوع انتقال داده شد</strong><br />» از %1$s به %2$s',
+	'LOG_MOVED_TOPIC'			=> '<strong>انتقال موضوع</strong><br />» %s',
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>گزارش پیغام خصوصی بسته شد</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>گزارش پیغام خصوصی حذف شد</strong><br />» %s',
 
 	'LOG_POST_APPROVED'			=> '<strong>پست تایید شد</strong><br />» %s',
-	'LOG_POST_DISAPPROVED'		=> '<strong>پست “%1$s” به دلیل زیر تایید نشد</strong><br />» %2$s',
-	'LOG_POST_EDITED'			=> '<strong>ویرایش پست</strong><br />» %2$s',
+	'LOG_POST_DISAPPROVED'		=> '<strong>پست تایید نشده “%1$s” نوشته شده توسط “%3$s” به دلیل</strong><br />» %2$s',
+	'LOG_POST_EDITED'			=> '<strong>پست ویرایش شد “%1$s” نوشته شده توسط “%2$s” به دلیل</strong><br />» %3$s',
 	'LOG_POST_RESTORED'			=> '<strong>پست بازیابی شد</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>گزارش بسته شد</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>گزارش حذف شد</strong><br />» %s',
@@ -574,7 +580,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>موضوع تایید شد</strong><br />» %s',
 	'LOG_TOPIC_RESTORED'		=> '<strong>موضوع بازیابی شد</strong><br />» %s',
-	'LOG_TOPIC_DISAPPROVED'		=> '<strong>موضوع “%1$s” به دلیل زیر تایید نشد</strong><br />%2$s',
+	'LOG_TOPIC_DISAPPROVED'		=> '<strong>موضوع تایید نشد “%1$s” نوشته شده توسط “%3$s” به دلیل</strong><br />» %2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>انطباق (resync) شمارنده موضوع</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>نوع موضوع تغییر یافت</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>قفل موضوع باز شد</strong><br />» %s',
@@ -682,7 +688,7 @@ $lang = array_merge($lang, array(
 	'LOG_AUTO_PRUNE'			=> '<strong>انجمن ها به صورت خودکار هرس شدند</strong><br />» %s',
 	'LOG_PRUNE_SHADOW'		=> '<strong>سایه مباحث به صورت خودکار هرس شدند.</strong><br />» %s',
 	'LOG_PRUNE_USER_DEAC'		=> '<strong>کاربران غیرفعال شدند</strong><br />» %s',
-	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>کاربران هرس شده و پست ها حذف شدند/strong><br />» %s',
+	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>کاربران هرس شده و پست ها حذف شدند </strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>کاربران هرس شده و پست ها حفظ شدند</strong><br />» %s',
 
 	'LOG_PURGE_CACHE'			=> '<strong>پاکسازی شدند cach</strong>',
@@ -780,7 +786,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_WARNING_DELETED'		=> '<strong>هشدار کاربر حذف شد</strong><br />» %s',
 	'LOG_WARNINGS_DELETED'		=> array(
-		1 => '<strong>هشدار کاربر حذف شد</strong><br />» %s',
+		1 => '<strong>هشدار کاربر حذف شد</strong><br />» %1$s',
 		2 => '<strong>%2$s هشدار کاربر حذف شد</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
 	),
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>همگی هشدار های کاربر حذف شدند</strong><br />» %s',

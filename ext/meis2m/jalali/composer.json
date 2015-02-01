@@ -3,7 +3,7 @@
 	"type": "phpbb-extension",
 	"description": "Adds an option to display dates as shamsi dates ",
 	"homepage": "http://www.php-bb.ir",
-	"version": "1.1.0",
+	"version": "1.0.0",
 	"time": "2014-10-28",
 	"license": "GPL-2.0",
 	"authors": [
