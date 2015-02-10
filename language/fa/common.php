@@ -284,8 +284,8 @@ $lang = array_merge($lang, array(
 	'FTP_USERNAME_EXPLAIN'		=> 'نام کاربری که برای اتصال به FTP سایتتان از آن استفاده میکنید',
 
 	'GENERAL_ERROR'				=> 'خطای عمومی',
-	'GB'						=> 'GB',
-	'GIB'						=> 'GiB',
+	'GB'						=> 'گیگابایت',
+	'GIB'						=> 'گیگابایت',
 	'GO'						=> 'برو',
 	'GOOGLEPLUS'				=> 'گوگل پلاس (Google +)',
 	'GOTO_FIRST_POST'			=> 'برو به پست اول',
@@ -349,7 +349,7 @@ $lang = array_merge($lang, array(
 	'JUMP_TO_PAGE'			=> 'پرش به صفحه',
 	'JUMP_TO_PAGE_CLICK'	=> 'برای پرش به صفحه ای کلیک کنید ...',
 
-	'KB'					=> 'KB',
+	'KB'					=> 'کیلوبایت',
 	'KIB'					=> 'کیلو بایت',
 
 	'LAST_POST'							=> 'آخرین پست',
@@ -395,8 +395,8 @@ $lang = array_merge($lang, array(
 	'MARK_FORUMS_READ'		=> 'علامت گذاری انجمن ها به عنوان خوانده شده',
 	'MARK_READ'				=> 'علامت گذاری به عنوان خوانده شده',
 	'MARK_SUBFORUMS_READ'	=> 'علامت گذاری زیرانجمن ها به عنوان خوانده شده',
-	'MB'					=> 'MB',
-	'MIB'					=> 'MiB',
+	'MB'					=> 'مگابایت',
+	'MIB'					=> 'مگابایت',
 	'MCP'					=> 'کنترل پنل مدیر انجمن',
 	'MCP_SHORT'				=> 'پنل مدیر انجمن',
 	'MEMBERLIST'			=> 'اعضا',
